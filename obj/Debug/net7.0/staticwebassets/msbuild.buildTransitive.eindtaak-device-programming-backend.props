@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\eindtaak-device-programming-backend.props" />
+</Project>
