@@ -25,4 +25,4 @@ app.MapDelete("/deletefavorite", async (IFavoriteRepository repo, string name) =
     return await repo.DeleteFavorite(name);
 });
 
-app.Run("http://localhost:5000");
+app.Run();
