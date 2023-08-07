@@ -1,0 +1,9 @@
+global using System;
+global using MongoDB.Bson.Serialization.Attributes;
+global using MongoDB.Bson;
+global using Microsoft.Extensions.Options;
+global using MongoDB.Driver;
+global using eindtaak_device_programming_backend.Models;
+global using eindtaak_device_programming_backend.Configuration;
+global using eindtaak_device_programming_backend.DataContext;
+global using eindtaak_device_programming_backend.Repositories;
