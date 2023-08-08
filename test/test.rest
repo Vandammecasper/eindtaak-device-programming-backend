@@ -4,12 +4,7 @@ GET http://localhost:5000/ HTTP/1.1
 GET http://localhost:5000/favorites HTTP/1.1
 
 ###
-POST http://localhost:5000/addfavorite HTTP/1.1
-content-Type: application/json
-    
-    {
-        "name": "Harry Kane"
-    }
+POST http://localhost:5000/addfavorite?newfavorite=Harry%20Kane HTTP/1.1
 
 ###
 DELETE http://localhost:5000/deletefavorite?name=Harry%20Kane HTTP/1.1

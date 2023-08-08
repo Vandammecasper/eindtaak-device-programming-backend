@@ -15,7 +15,7 @@ app.MapGet("/favorites", async (IFavoriteRepository repo) =>
     return await repo.GetAllFavorites();
 });
 
-app.MapPost("/addfavorite", async (IFavoriteRepository repo, Favorite newfavorite) =>
+app.MapPost("/addfavorite", async (IFavoriteRepository repo, string newfavorite) =>
 {
     return await repo.AddFavorite(newfavorite);
 });
